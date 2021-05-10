@@ -543,19 +543,6 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
-      },
-      "CalculatorLibrary/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Newtonsoft.Json": "9.0.1"
-        },
-        "compile": {
-          "bin/placeholder/CalculatorLibrary.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/CalculatorLibrary.dll": {}
-        }
       }
     }
   },
@@ -2684,16 +2671,11 @@
         "system.xml.xdocument.4.0.11.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
-    },
-    "CalculatorLibrary/1.0.0": {
-      "type": "project",
-      "path": "../CalculatorLibrary/CalculatorLibrary.csproj",
-      "msbuildProject": "../CalculatorLibrary/CalculatorLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "CalculatorLibrary >= 1.0.0"
+      "Newtonsoft.Json >= 9.0.1"
     ]
   },
   "packageFolders": {
@@ -2703,11 +2685,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\crazy\\OneDrive\\Documents\\GitHub\\Console_App_Tutorial\\Calculator\\Calculator\\Calculator.csproj",
-      "projectName": "Calculator",
-      "projectPath": "C:\\Users\\crazy\\OneDrive\\Documents\\GitHub\\Console_App_Tutorial\\Calculator\\Calculator\\Calculator.csproj",
+      "projectUniqueName": "C:\\Users\\crazy\\OneDrive\\Documents\\GitHub\\Console_App_Tutorial\\Calculator\\CalculatorLibrary\\CalculatorLibrary.csproj",
+      "projectName": "CalculatorLibrary",
+      "projectPath": "C:\\Users\\crazy\\OneDrive\\Documents\\GitHub\\Console_App_Tutorial\\Calculator\\CalculatorLibrary\\CalculatorLibrary.csproj",
       "packagesPath": "C:\\Users\\crazy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\crazy\\OneDrive\\Documents\\GitHub\\Console_App_Tutorial\\Calculator\\Calculator\\obj\\",
+      "outputPath": "C:\\Users\\crazy\\OneDrive\\Documents\\GitHub\\Console_App_Tutorial\\Calculator\\CalculatorLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2726,11 +2708,7 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {
-            "C:\\Users\\crazy\\OneDrive\\Documents\\GitHub\\Console_App_Tutorial\\Calculator\\CalculatorLibrary\\CalculatorLibrary.csproj": {
-              "projectPath": "C:\\Users\\crazy\\OneDrive\\Documents\\GitHub\\Console_App_Tutorial\\Calculator\\CalculatorLibrary\\CalculatorLibrary.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -2742,6 +2720,12 @@
     "frameworks": {
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[9.0.1, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

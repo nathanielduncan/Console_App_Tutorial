@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Zff5O7DZgzmj0LZXASWylJ1iI3MrvA8dsxme86mYBMbCefTtkOptVDuFC2f/buok3iSp/KinttkGOszzTRmXqQ==",
+  "dgSpecHash": "QcaFHsC850EXGxvfr2tO7fNfNfu7RL6+tt/LfbIYzSWQX/tIDDaoQdVP8ejzIEct4a0TCoSv6ZTGbjyzbbyX0A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\crazy\\OneDrive\\Documents\\GitHub\\Console_App_Tutorial\\Calculator\\Calculator\\Calculator.csproj",
+  "projectFilePath": "C:\\Users\\crazy\\OneDrive\\Documents\\GitHub\\Console_App_Tutorial\\Calculator\\CalculatorLibrary\\CalculatorLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\crazy\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\crazy\\.nuget\\packages\\microsoft.netcore.platforms\\1.0.1\\microsoft.netcore.platforms.1.0.1.nupkg.sha512",
